@@ -1,9 +1,9 @@
-import Image from "next/image";
-
+// import Image from "next/image";
+import Link from "next/link";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h1 className="bg-lime-600">Hello this is sucfully added</h1>
+    <main>
+      <h1>This is my recipe app</h1>
     </main>
   );
 }
